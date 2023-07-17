@@ -1,0 +1,484 @@
+body{
+    background-color: #1600fe;
+   }
+   .login{
+     margin: auto;
+     width: 200px;
+     height:550px;
+     padding: 10px 140px;
+     /* border:3px solid green; */
+     display:flex;
+     flex-flow: column;
+     background-color: #fff;
+     margin-bottom:60px;
+     border-radius: 5px;
+   }
+   .loginr{
+     margin: auto;
+     width: 200px;
+     height:640px;
+     padding: 10px 140px;
+     /* border:3px solid green; */
+     display:flex;
+     flex-flow: column;
+     background-color: #fff;
+     margin-bottom:60px;
+     border-radius: 5px;
+     
+   }
+   .logo{
+       color: white;
+       padding:25px;
+       margin-top:-10px;
+   }
+   .logor{
+       color: red;
+       padding:40px;
+       text-decoration: none;
+       font-size: 50px;
+       font-family: Arial, Helvetica, sans-serif;
+       
+   
+   }
+   
+   
+   .chestionar input[type='text'],input[type='password']{
+       border: 0;
+       border-bottom: 1px solid #b4becb;
+       width: 100%;
+       padding: 10px;
+       font-size: 16px;
+       margin-bottom:5px;
+    
+   }
+   .chestionar{
+     display: flex;
+     justify-content: center;
+     align-items:center;  
+     flex-flow:column;
+     background-color: white;
+   }
+   
+  
+   .login h1{
+     font-size: 3rem;
+     color:#60f542;
+     margin-left:-30px;
+   }
+   .loginr h1{
+     font-size: 3rem;
+     color:#60f542;
+     margin-left:-30px;
+   }
+   
+   .butonz{
+     display: flex;
+     justify-content: center;
+     align-items:center;  
+     flex-flow:column;
+     padding: 10px 20px;
+     cursor: pointer;
+     background:#60f542;
+     color: #000;
+     border: none;
+     border-radius: 5px;
+     width:300px;
+     height:40px;
+     margin-top:20px;
+     margin-left:-40px;
+     text-decoration: none;
+     
+   }
+   .login-button{
+     background:#60f542;
+     border:none;
+     width:300px;
+     margin-left:-40px;
+     height:40px;
+     border-radius: 5px;
+   }
+   .butoaneradio{
+    width:220px;
+   }
+   .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+   }
+.navbarlogo{
+    float:left;
+    text-decoration: none;
+    color:#000;
+    font-size: 30px;
+   }
+.navbar input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: #000 solid 1px;
+   }
+.navbar .container_cautare {
+    margin-left: 35%;
+    float:left;
+    margin-bottom: 6px;
+  }
+.navbar .container_cautare button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border:#000 solid 1px;
+    cursor: pointer;
+  }
+  
+.navbar .container_cautare button:hover {
+    background: #ccc;
+  }
+.navbar h1{
+  font-size: 0.5cm;
+}
+.butonnav{
+  float:right;
+  margin-top:-35px;
+  margin-right:20px;
+}
+.navsfarsit{
+  float:right;
+}
+.navsfarsit h1{
+  margin-right:150px;
+  margin-bottom: 15px;
+}
+.navadmin{
+  float:right;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+
+.servicii{
+  float: right;
+  margin-right: 120px;
+}
+.titlubuton{
+  margin-right:210px;
+}
+.salon{
+  float:left;
+  margin-left: 50px;
+}
+.serviciu{
+  float:left;
+  background-color: #fff;
+  border:solid 1px #000;
+  height:100px;
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.serviciu p{
+  margin-bottom: -20px;
+}
+.buton-serviciu{
+  background-color: red;
+  height:102px;
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.serviciu:hover{
+  background-color: gray;
+}
+.Modala{
+  display:grid;
+  justify-content: center;
+  height:445px;
+}
+
+.feed{
+  display: grid;
+  justify-content: center;
+}
+.imaginefeed{
+  width:400px;
+  height:200px;
+  border-top-left-radius:8px ;
+  border-top-right-radius: 8px;
+}
+.imaginefeed2{
+  width:500px;
+  height:200px;
+  border-top-left-radius:8px ;
+  border-top-right-radius: 8px;
+}
+.salonFeed{
+  display:grid;
+  justify-content: center;
+  margin-top:40px;
+  border:3px solid #000;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #fff;
+}
+.descriere{
+  border-bottom: 1px solid gray;
+  border-bottom-left-radius: 5px;
+}
+
+.imaginesectiunesalon{
+  width:400px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.salonFeed2{
+  display:grid;
+  justify-content: center;
+  border:3px solid #000;
+  border-radius: 10px;
+  width: 500px;
+  background-color: #fff;
+}
+
+.serviciiuser{
+  border:2px solid #000;
+  border-radius: 10px;
+  width:400px;
+  margin-bottom: 20px;
+}
+.serviciifeed{
+  display:grid;
+  justify-content: center;
+  
+}
+.togglerecenzie{
+  float:right;
+  margin-top: -70px;
+}
+.formularrecenzie{
+  display:grid;
+  justify-content: center;
+}
+.formularrecenzie button{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.baraR{
+  margin-bottom: 20px;
+}
+
+.star-rating button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}
+
+.recenziifeed{
+  border:2px solid #000;
+  border-radius: 10px;
+  width:450px;
+  height:100px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.comment-content {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment-text {
+  margin: 0;
+}
+
+.comment-details {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.commenter-name {
+  margin-right: 10px;
+}
+.butonstergererecenzie{
+  width:40px;
+  height: 40px;
+  background-color: red;
+  border:none;
+  border-radius: 10px;
+  margin-left: 20px;
+  justify-content: right;
+}
+.sectiune_admin{
+  border:1px solid #000;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 680px;
+  background-color: #fff;
+}
+
+.porelcaformular{
+  display:grid;
+  justify-content: center;
+  border: 2px solid #b4becb;
+  background-color: #fff;
+  border-radius: 10px;
+  width:400px;
+  margin:auto;
+  margin-top: 20%;
+}
+.porelcaformular button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 10px;
+  height: 50px;
+  background-color: #60f542;
+}
+
+.formsSalon{
+  display:grid;
+  justify-content: center;
+  border:2px solid #000;
+  border-radius: 10px;
+  width:1000px;
+  margin-left: 20%;
+  margin-top: 2%;
+  height: 710px;
+  background-color: #fff;
+}
+
+.Crearebutonsalon{
+  background:#60f542;
+  border:none;
+  width:300px;
+  margin-left:-40px;
+  height:40px;
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.navbarlink{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
+  margin-left: 20px;
+  
+}
+.linkuri{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 37%;
+}
+
+.titluri_programari{
+  position:relative;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: space-around;
+}
+.line{
+  position:absolute;
+  top:50px;
+  bottom: 0;
+  left:50%;
+  right: 0;
+  width: 2px;
+  background-color: #000;
+}
+.rightsite{
+  margin-top: -305px;
+  float:right
+}
+
+.oprogramare{
+  width: 300px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.optiuniprogramare{
+  float: right;
+  margin-right: 10px;
+}
+
+.deleteprogramare{
+ border:none;
+ color:red;
+ background-color: #fff;
+}
+
+.acceptprogramare{
+  border: none;
+  color:#60f542;
+  background-color: #fff;
+}
+
+.butondesalon{
+  background:#60f542;
+  border:none;
+  border-radius: 10px;
+  width:100px;
+  height:40px;
+  margin-top: 20px;
+  margin-left:40px;
+}
+
+.titlusimplu{
+  text-decoration: underline;
+  text-decoration-color:#b4becb ;
+}
+
+.butondesalon2{
+  background:#60f542;
+  border:none;
+  border-radius: 10px;
+  width:200px;
+  height:40px;
+  margin-top: 20px;
+  margin-left:26%;
+}
+.programari_inasteptare{
+  float:left;
+}
+.programari_acceptate {
+  position: absolute;
+  right: 30%;
+  
+}
+
+.navbarlink3{
+  align-items: center;
+  text-decoration: none;
+  color:#000;
+  font-size: 20px;
+  border:none;
+  background-color: #fff;
+  margin-top: 12px;
+}
