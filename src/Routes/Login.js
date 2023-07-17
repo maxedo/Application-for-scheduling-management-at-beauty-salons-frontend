@@ -40,7 +40,7 @@ const Login=() =>{
 
     return (
         <>
-        <h1 className='logo'>LucrareLicenta</h1>
+        <h1 className='logo'>E-Beauty</h1>
         <div className='login'>
             <h1>Autentificare</h1><br/>
             <form className="chestionar">
